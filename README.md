@@ -13,7 +13,7 @@ This is a cool Sign In page. Here user can sign in wth his id and pass. If user 
 2. Css
 3. Js
 
-# THE Code For 
+# The Code For 
 The code can use anyone who were making websites and lockings for Sign Up/login page.
 
 
