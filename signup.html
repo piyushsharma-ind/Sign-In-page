@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Page</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="login-container">
+        <h1>Sign Up</h1>
+        <form id="signup-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required pattern="^[a-zA-Z0-9]+$" title="Username must not contain special characters.">
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+        <a href="index.html">Already have an account? Sign in</a>
+    </div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
