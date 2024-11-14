@@ -8,7 +8,7 @@ This is a cool Sign In page. Here user can sign in wth his id and pass. If user 
 2. User can not add any special charcters in his username if it happens the page did not accept that.
 3. user can not add diffrent passwords in password box and confirm password section. 
 
-#Laguages I Used
+# Laguages I Used
 1. Html
 2. Css
 3. Js
